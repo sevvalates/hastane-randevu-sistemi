@@ -1,0 +1,101 @@
+.custom-position {
+    margin-top: 350px; /* Üstten boşluk */
+    margin-left: 20px; /* Soldan boşluk */
+  }
+  .custom-link {
+    text-decoration: none; /* Alt çizgiyi kaldır */
+    color: #ffffff; /* Yazı rengi (mavi) */
+    font-weight: bold; /* Yazıları kalınlaştır */
+  }
+  
+  /* Eğer hover efekti eklemek isterseniz */
+  .custom-link:hover {
+    color: #0056b3; /* Hover rengi (daha koyu mavi) */
+  }
+
+  .custom-sidelink {
+    text-decoration: none; /* Alt çizgiyi kaldır */
+    color: #6e6767; /* Yazı rengi (mavi) */
+    font-size: 1rem;
+    font: bold;
+    text-align: left; 
+  }
+  
+  
+  .custom-link-container {
+    display: flex;
+    align-items: center; /* Yatayda ortalamak için */
+  }
+  
+  .separator {
+    width: 0; /* Çizginin kalınlığı */
+    height: 50px; /* Çizginin yüksekliği */
+    border-left: 3px solid #ffffff; 
+    margin: 0 20px; /* Çizgi ile butonlar arasındaki mesafe */
+  }
+
+  .custom-container {
+    display: flex;
+    align-items: start;
+  }
+  
+
+  .info {
+    font-size: 2rem; /* Alt metin için daha küçük yazı boyutu */
+    color: #555; /* Alt metin rengi */
+    font-weight: 400; /* Alt metin kalınlığı */
+    margin-top: 5px; /* Üstten boşluk */
+}
+
+.main-titleeee {
+    font-size: 1rem; /* Yazı boyutu */
+    color: #134172; /* Yazı rengi */
+    font-weight: bold; /* Yazı kalınlığı */  
+    border-bottom: 2px solid #134172; /* Alt çizgi */
+    padding-bottom: 5px; /* Alt çizin üstünde boşluk bırakmak için */
+}
+
+.main-title {
+    font-size: 1.3rem; /* Yazı boyutu */
+    color: #6e6767; /* Yazı rengi */
+    font-weight: bold; /* Yazı kalınlığı */
+    position: relative; /* Pseudo-element için konum ayarı */
+    padding-bottom: 15px; /* Alt çizin üstünde boşluk bırakmak için */
+}
+
+.main-title::after {
+    content: ''; /* Pseudo-element içeriği */
+    display: block; /* Blok düzende görüntüleme */
+    width: 50%; /* Yarım alt çizgi genişliği */
+    height: 2px; /* Çizgi kalınlığı */
+    background-color: #278ef4; /* Çizgi rengi */
+    position: absolute; /* Konumlandırma */
+    left: 0; /* Soldan hizalama */
+    bottom: 0; /* Alt kenara hizalama */
+}
+
+
+
+.scroll-padding {
+    padding-top: 100px; /* İstediğiniz padding değeri */
+    margin-top: -100px; /* Yüksekliği eşitlemek için negatif margin */
+}
+
+/*
+.sidebar{
+    height:100%;
+    width:200px;
+    background-color:#fff;
+    position:fixed!important;
+    z-index:1;
+    overflow:auto
+}*/
+
+
+.sidebar {
+    width: 250px;
+    padding: 20px; /* Daha az padding kullan */
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}

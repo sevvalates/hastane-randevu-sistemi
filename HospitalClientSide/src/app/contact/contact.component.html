@@ -1,0 +1,125 @@
+
+<div  
+     style="background-image: url('/assets/img/contact-page.jpg'); 
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            background-position: center 20%; /* Adjust vertical position */
+            padding: 20px; 
+            border-radius: 8px; 
+            height: 450px; 
+            width: 100vw; /* Full viewport width */
+
+     ">
+    <h3 class="mb-4" style="font-size: 3rem; font-weight: 600; position: absolute; top: 325px;left: 30px;">
+         İletişim | 444 55 44
+    </h3>
+ 
+ <!--   <a href="#contact-section" >Go to Contact Us</a>
+    <a [routerLink]="[]" fragment="contact-section">Go to Contact Us</a>
+    <a (click)="goToContact()" class="scrollContent">Go to Contact Us</a>-->
+    <div class="container" style="position: absolute;">
+      <div class="row mb-3 custom-position custom-link-container">
+        <div class="col-auto">
+          <a class="btn btn-link fs-3 custom-link" [routerLink]="['/contact']" fragment="list-item-1">
+            <i class="fas fa-envelope"></i> İletişim Formu
+          </a>
+        </div>
+        <div class="separator"></div> <!-- Dikey çizgi -->
+        <div class="col-auto">
+          <a class="btn btn-link fs-3 custom-link" [routerLink]="['/contact']" fragment="list-item-2">
+            <i class="fas fa-building"></i> Genel Müdürlük
+          </a>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+
+  <div class="container mt-4">
+      <h3 id="list-item-1" class="scroll-padding" style="font-size: 1.5rem; font-weight: 600; ; border-bottom: 2px solid rgba(28, 12, 129, 0.1); padding-bottom: 10px;">
+        İletişim Formu
+      </h3>
+    
+      <form class="row g-3" (ngSubmit)="onFormSubmit()" [formGroup]="contactForm">
+        
+        <div class="col-md-6">
+          <label for="nameSurname" class="form-label">Adı Soyadı</label>
+          <input type="text" class="form-control" formControlName="nameSurname" id="nameSurname" required />
+        </div>
+
+        <div class="col-md-6">
+          <label for="phone" class="form-label">Tel no</label>
+          <br>
+          <input #phoneInput type="tel" class="form-control" formControlName="phone" id="phone" required />
+        </div>
+
+        <div class="col-md-6">
+          <label for="email" class="form-label">Email</label>
+          <input type="text" class="form-control" formControlName="email" id="email" required />
+        </div>
+    
+        <div class="col-md-6">
+          <label for="subjectSelect" class="form-label"> Konu Türü</label>
+          <select id="subjectSelect" class="form-select" formControlName="subject" required>
+            <option value="" selected>Konu Seçiniz</option>
+            <option [value]="ContactSubject.Bilgi">{{ subjectMap[ContactSubject.Bilgi] }}</option>
+            <option [value]="ContactSubject.Oneri">{{ subjectMap[ContactSubject.Oneri] }}</option>
+            <option [value]="ContactSubject.Sikayet">{{subjectMap[ContactSubject.Sikayet] }}</option>        
+          </select>
+        </div>
+
+        <div class="col-md-6">
+            <label for="message" class="form-label">Mesajınız</label>
+            <textarea class="form-control" formControlName="message" id="message" rows="4" required></textarea>
+        </div>
+      
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary" [disabled]="contactForm.invalid">Gönder</button>
+        </div>
+    
+      </form>
+    </div>
+
+
+
+
+    <div class="container mt-4">
+      <h3 id="list-item-2" class="mb-4" style="font-size: 1.5rem; font-weight: 600; ; border-bottom: 2px solid rgba(28, 12, 129, 0.1); padding-bottom: 10px;">
+        Genel Müdürlük
+      </h3>    
+      <div style="display: flex; align-items: flex-start;"> <!-- Flex container -->
+        <div style="background-image: url('/assets/img/contact-page2.png'); 
+          background-size: cover; /* Resmi kapsayacak şekilde ayarlama */
+          background-repeat: no-repeat; 
+          width: 400px; /* Resmin genişliği */
+          height: 250px; /* Resmin yüksekliği */
+          border-radius: 8px; 
+          margin-right: 20px; /* Resim ile yazı arasındaki boşluk */
+          margin-bottom: 30px;
+        ">
+        </div>
+
+        <div style="flex: 1;">
+        <p class="main-title"> Acıbadem Sağlık Grubu Genel Müdürlük </p>
+
+        <p class="info">
+          <em><strong>Adres:</strong> Atatürk Mah. Feza sok. No:3 Ataşehir / İSTANBUL</em>
+        </p>
+
+        <p class="info">
+          <em><strong>Telefon:</strong> +90 216 643 9333 (9334 - 9335)</em>
+        </p>
+
+        <p class="info">
+          <em>Randevu almak için <strong>444 55 44</strong> numaralı telefondan çağrı merkezimize ulaşabilirsiniz.</em>        
+        </p>
+
+        </div>
+
+    </div>
+      
+   </div>
+</div>
+    

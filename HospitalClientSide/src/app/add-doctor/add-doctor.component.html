@@ -1,0 +1,77 @@
+<div class="container mt-4">
+  <h3 class="mb-4" style="font-size: 1.5rem; font-weight: 600; ; border-bottom: 2px solid rgba(0, 0, 0, 0.1); padding-bottom: 10px;">
+    Doktor Ekle
+    </h3>
+    <form class="row g-3" (ngSubmit)="onFormSubmit()" [formGroup]="doctorForm">
+      
+      <div class="col-md-6">
+        <label for="name" class="form-label">Adı</label>
+        <input type="text" class="form-control" formControlName="name" id="name" required />
+     
+        <div *ngIf="doctorForm.get('name')?.invalid && (doctorForm.get('name')?.touched || doctorForm.get('name')?.dirty)" class="text-danger">
+          <small *ngIf="doctorForm.get('name')?.errors?.['required']">Name is required.</small>
+          <small *ngIf="doctorForm.get('name')?.errors?.['minlength']">Name must be at least 2 characters.</small>
+          <small *ngIf="doctorForm.get('name')?.errors?.['maxlength']">Name cannot exceed 50 characters.</small>
+        </div>
+     
+      </div>
+
+      <div class="col-md-6">
+        <label for="surname" class="form-label">Soyadı</label>
+        <input type="text" class="form-control" formControlName="surname" id="surname" required />
+        <div *ngIf="doctorForm.get('surname')?.invalid && (doctorForm.get('surname')?.touched || doctorForm.get('surname')?.dirty)" class="text-danger">
+          <small *ngIf="doctorForm.get('surname')?.errors?.['required']">Surname is required.</small>
+          <small *ngIf="doctorForm.get('surname')?.errors?.['minlength']">Surname must be at least 2 characters.</small>
+          <small *ngIf="doctorForm.get('surname')?.errors?.['maxlength']">Surname cannot exceed 50 characters.</small>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <label for="socialSecurityNumber" class="form-label">Kimlik No</label>
+        <input type="text" class="form-control" formControlName="socialSecurityNumber" id="socialSecurityNumber" required />
+        
+        <div *ngIf="doctorForm.get('socialSecurityNumber')?.invalid && (doctorForm.get('socialSecurityNumber')?.touched || doctorForm.get('socialSecurityNumber')?.dirty)" class="text-danger">
+          <small *ngIf="doctorForm.get('socialSecurityNumber')?.errors?.['required']">SSN is required.</small>
+          <small *ngIf="doctorForm.get('socialSecurityNumber')?.errors?.['pattern']">SSN must be an 11-digit number.</small>
+        </div>
+        <!---->
+        <div *ngIf="errorMessage" class="error-message">
+          {{ errorMessage }}
+        </div>
+        <!---->
+      
+      </div>
+
+
+
+  
+      <div class="col-md-6">
+        <label for="genderSelect" class="form-label">Cinsiyeti</label>
+        <select id="genderSelect" class="form-select" formControlName="gender" required>
+          <option value="" disabled selected>Select Gender</option>
+          <option [value]="Gender.Female">{{ genderMap[Gender.Female] }}</option>
+          <option [value]="Gender.Male">{{ genderMap[Gender.Male] }}</option>
+          <option [value]="Gender.Other">{{ genderMap[Gender.Other] }}</option>        
+        </select>
+        <div *ngIf="doctorForm.get('gender')?.invalid && (doctorForm.get('gender')?.touched || doctorForm.get('gender')?.dirty)" class="text-danger">
+          <small *ngIf="doctorForm.get('gender')?.errors?.['required']">Gender is required.</small>
+        </div>
+      </div>
+      
+      <div class="col-md-6">
+        <label for="corporationSelect" class="form-label">Servisi</label>
+        <select id="corporationSelect" class="form-select" (change)="onServiceChange($event)" formControlName="corporationId" required>
+          <option value="" disabled selected>Select Service</option>
+          @for (item of Hospital; track item.id) {
+            <option value="{{item.id}}">{{item.name}}</option>
+          }
+        </select>
+      </div>
+  
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary" [disabled]="doctorForm.invalid">Submit</button>
+      </div>
+  
+    </form>
+  </div>
+  

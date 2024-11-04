@@ -1,0 +1,82 @@
+
+<div  
+     style="background-image: url('/assets/img/kurumsal-bilgiler.jpeg'); 
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            background-position: center 20%; /* Adjust vertical position */
+            padding: 20px; 
+            border-radius: 8px; 
+            height: 450px; 
+            width: 100vw; /* Full viewport width */
+
+     ">
+    <h3 class="mb-4" style="font-size: 3rem; color: #ffffff;font-weight: 600; position: absolute; top: 325px;left: 30px;">
+         Kurumsal Bilgiler
+    </h3>
+
+    <div class="container" style="position: absolute;">
+        <div class="row mb-3 custom-position custom-link-container">
+          <div class="col-auto">
+            <a class="btn btn-link fs-3 custom-link" [routerLink]="['/about']" fragment="sidebar-item-3">
+              <i class="fas fa-id-card"></i> Kurumsal Kimlik
+            </a>
+          </div>
+          <div class="separator"></div>
+          <div class="col-auto">
+            <a class="btn btn-link fs-3 custom-link" [routerLink]="['/about']" fragment="sidebar-item-2">
+              <i class="fas fa-chart-line"></i> Tarihçe
+            </a>
+          </div>
+        </div>
+    </div>
+</div>
+
+<div style="display: flex; margin-top: 0px;">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div id="list-example" class="list-group">
+            <a class="btn btn-link custom-sidelink"  [routerLink]="['/about']" fragment="sidebar-item-1">
+                Tanıtım
+            </a>
+            <a class="btn btn-link custom-sidelink " [routerLink]="['/about']" fragment="sidebar-item-2">
+                Tarihçe
+            </a>
+            <a class="btn btn-link custom-sidelink " [routerLink]="['/about']" fragment="sidebar-item-3">
+                Kurumsal Kimlik
+            </a>
+        </div>
+    </div>
+
+    <!-- Content Area -->
+    <div style="flex-grow: 1; padding: 15px; margin-left: 20px;">
+        <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example" style="max-height: 400px; overflow-y: auto;">
+            <h4 id="sidebar-item-1" class="main-title">TANITIM</h4>
+            <p>Sağlıklı Bir Nefes Tek Dileğimiz!
+                1991 yılında bir semt hastanesi olarak başlayan Acıbadem Sağlık Grubu, günümüzde büyük bir başarıya imza atarak sağlıkta bir eko-sistem yarattı. 5 ülkede toplam 24 hastane ve 15 tıp merkezi hizmet veren Acıbadem Sağlık Grubu, destek hizmet şirketleri ve Acıbadem Üniversitesi ile sağlığın her alanında “360 derece” hizmet üretiyor.
+            </p>
+            <p>    
+                1991’de küçük bir semt hastanesi olarak yola çıkan Acıbadem, bugün artık Türkiye ile birlikte, Makedonya, Bulgaristan, Hollanda ve Sırbistan olmak üzere 5 Ülkede 24 hastane, 15 tıp merkezi ve 25 bine yakın çalışanıyla tanınmış bir dünya markası. Dünyanın örnek aldığı sağlık ekosisteminin kurucusu olan Acıbadem, sağlığın her alanında 360 derece hizmet sunuyor. Acıbadem Mobil Sağlık, APlus, Acıbadem Proje Yönetimi, Acıbadem Labmed, Acıbadem Teknoloji, Acıbadem Sports şirketleriyle ve Acıbadem Üniversitesi’nin akademik gücüyle, büyümeye devam ediyor.
+                Acıbadem Sağlık Grubu, sağlık turizmi alanında da, son 8 yıldır üst üste ülkemizin sağlık sektöründeki en büyük hizmet ihracatçısı olarak, HIB Ödüllerinde de sektör birincisi. 33 ülkede 57 şehirde ve 61 noktada bulunan Health Point ofisleri üzerinden ülkemize yılda 50.000’den fazla yabancı hasta gelmesini sağlıyor.
+            
+            </p>
+            <p>
+                Bugün; alanında uzman 3400 doktor ve 5000 hemşire ile, sahip olduğu ileri tıp teknolojisi ve altyapı donanımıyla sağlık alanında sunduğu hizmetleri lider Türk markası olarak dünyaya taşıyor.
+            </p>
+            <h4 id="sidebar-item-2" class="main-title">TARİHÇE</h4>
+            <p>Acıbadem Holding veya Acıbadem Sağlık Yatırımları Holding A.Ş., İstanbul merkezli holding kuruluşu. Şirketin yönetim kurulu başkanlığını eski TFF başkanı Mehmet Ali Aydınlar yapmaktadır.
+
+                Holdingin temelleri 1991 yılında İstanbul'da Acıbadem Kadıköy Hastanesi'nin açılmasıyla atılmıştır. 1995 yılında Acıbadem Bağdat Caddesi Tıp Merkezi 'nin açılmasıyla zincir bir sağlık grubuna dönüşmüş, ilerleyen yıllarda çeşitli yerlerde tıp merkezleri açarak büyümesini sürdürmüştür. 2000 yılında İMKB'de işlem görmeye başlamıştır.[1] 2011 yılında imzalanan bir anlaşmayla Singapur merkezli Integrated Healthcare Holdings Sdn. Bhd. (IHH) şirketi şirket hisselerinin büyük çoğunluğunu elinde bulundurmaktadır.[2]
+                
+                Ayrıca holdingin adını taşıyan Acıbadem Sağlık ve Eğitim Vakfı adında bir vakıf kuruluşu ile eğitim ve sosyal sorumluluk faaliyetleri bulunmaktadır. Acıbadem Üniversitesi bu doğrultuda kurulmuştur.</p>
+            <h4 id="sidebar-item-3" class="main-title">KURUMSAL KİMLİK</h4>
+            <a href="https://apps.acibadem.com.tr/kurumsal-kimlik/index.html" style="color: #0d3155; text-decoration: none; font-size:1.5rem;">
+                <p>Acıbadem Sağlık Grubu </p> 
+                <p>Kurumsal Kimlik Çalışmasını </p>
+                <p><span style="border-bottom: 2px solid #278ef4; color: #0d3155;">BURADAN</span> İndirebilirsiniz.</p>
+            </a>
+            <p>Kurumsal kimlik içinde doğru logo kullanımları, kurumsal renkler ve uygulamalar gibi bir çok çalışmayı bulabilirsiniz.</p>
+        </div>
+    </div>
+
+</div>

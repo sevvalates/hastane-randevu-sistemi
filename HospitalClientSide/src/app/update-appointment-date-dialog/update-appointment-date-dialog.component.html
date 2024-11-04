@@ -1,0 +1,78 @@
+
+
+<h1 mat-dialog-title>Randevu Güncelle</h1>
+<form [formGroup]="appointmentForm">
+<div mat-dialog-content>
+ <!--
+    <mat-form-field class="form-group">
+      <mat-label for="appointmentDate" class="form-label">Randevu Tarihi</mat-label>
+      <input matInput  type="date" id="appointmentDate" class="form-control" formControlName="appointmentDate" required>
+    </mat-form-field>
+-->  
+
+
+<div class="row mt-2">
+  <div class="col-md-2">
+
+    <div class="form-group">
+      <label for="serviceSelect" class="form-label">Required Service</label>
+      <select id="serviceSelect" class="form-select" formControlName="serviceId" (change)="fetchDoctorsByService($event)">
+        <option value="" disabled selected>Select Service</option>
+        @for (item of Hospital; track item.id) {
+          <option value="{{item.id}}">{{item.name}}</option>
+        }
+      </select>
+    </div>
+  </div>
+  
+  <div class="col-md-2">
+
+    <div class="form-group">
+      <label for="doctorSelect" class="form-label">Doctor</label>
+      <select id="doctorSelect" class="form-select" formControlName="doctorId">
+        <option value="" disabled selected>Select Doctor</option>
+        @for (item of filteredDoctors; track item.id) {
+          <option value="{{item.id}}">{{item.name}} {{item.surname}}</option>
+        }
+      </select>
+    </div>
+  </div>
+
+  <div class="row mt-3">
+    <div class="col-md-2">
+    <mat-form-field>
+      <input matInput [matDatepicker]="dp" placeholder="Choose a date" (dateChange)="updateDOB($event)" disabled >
+      <mat-datepicker-toggle matSuffix [for]="dp"></mat-datepicker-toggle>
+      <mat-datepicker touchUi #dp disabled="false"></mat-datepicker>
+    </mat-form-field>
+  </div>
+  </div>
+    <div class="row mt-2">
+        <div class="col-md-2">
+          <mat-form-field appearance="fill">
+            <mat-label>Saat</mat-label>
+            <mat-select formControlName="hour">
+              <mat-option value="" disabled selected>Saat</mat-option>
+              <mat-option *ngFor="let hour of hours" [value]="hour">{{ hour }}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+    
+        <div class="col-md-2">
+          <mat-form-field appearance="fill">
+            <mat-label>Dakika</mat-label>
+            <mat-select formControlName="minute">
+              <mat-option value="" disabled selected>Dakika</mat-option>
+              <mat-option *ngFor="let minute of minutes" [value]="minute">{{ minute }}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+    </div>
+<div mat-dialog-actions>
+  
+    <button mat-button mat-dialog-close>İptal</button>
+    <button mat-button (click)="onSave()">Kaydet</button>
+   <!-- <button mat-button type="submit" [disabled]="!appointmentForm.valid">Kaydet</button> -->
+
+</div>
+

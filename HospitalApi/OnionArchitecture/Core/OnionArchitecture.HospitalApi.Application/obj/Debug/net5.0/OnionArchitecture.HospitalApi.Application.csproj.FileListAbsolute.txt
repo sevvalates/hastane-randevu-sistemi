@@ -1,0 +1,15 @@
+C:\Users\asus\source\repos\HospitalApi\OnionArchitecture\Core\OnionArchitecture.HospitalApi.Application\bin\Debug\net5.0\OnionArchitecture.HospitalApi.Application.deps.json
+C:\Users\asus\source\repos\HospitalApi\OnionArchitecture\Core\OnionArchitecture.HospitalApi.Application\bin\Debug\net5.0\OnionArchitecture.HospitalApi.Application.dll
+C:\Users\asus\source\repos\HospitalApi\OnionArchitecture\Core\OnionArchitecture.HospitalApi.Application\bin\Debug\net5.0\OnionArchitecture.HospitalApi.Application.pdb
+C:\Users\asus\source\repos\HospitalApi\OnionArchitecture\Core\OnionArchitecture.HospitalApi.Application\bin\Debug\net5.0\OnionArchitecture.HospitalApi.Domain.dll
+C:\Users\asus\source\repos\HospitalApi\OnionArchitecture\Core\OnionArchitecture.HospitalApi.Application\bin\Debug\net5.0\OnionArchitecture.HospitalApi.Domain.pdb
+C:\Users\asus\source\repos\HospitalApi\OnionArchitecture\Core\OnionArchitecture.HospitalApi.Application\obj\Debug\net5.0\OnionArchitecture.HospitalApi.Application.csproj.AssemblyReference.cache
+C:\Users\asus\source\repos\HospitalApi\OnionArchitecture\Core\OnionArchitecture.HospitalApi.Application\obj\Debug\net5.0\OnionArchitecture.HospitalApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\source\repos\HospitalApi\OnionArchitecture\Core\OnionArchitecture.HospitalApi.Application\obj\Debug\net5.0\OnionArchitecture.HospitalApi.Application.AssemblyInfoInputs.cache
+C:\Users\asus\source\repos\HospitalApi\OnionArchitecture\Core\OnionArchitecture.HospitalApi.Application\obj\Debug\net5.0\OnionArchitecture.HospitalApi.Application.AssemblyInfo.cs
+C:\Users\asus\source\repos\HospitalApi\OnionArchitecture\Core\OnionArchitecture.HospitalApi.Application\obj\Debug\net5.0\OnionArchitecture.HospitalApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\HospitalApi\OnionArchitecture\Core\OnionArchitecture.HospitalApi.Application\obj\Debug\net5.0\OnionArc.2B7C5D80.Up2Date
+C:\Users\asus\source\repos\HospitalApi\OnionArchitecture\Core\OnionArchitecture.HospitalApi.Application\obj\Debug\net5.0\OnionArchitecture.HospitalApi.Application.dll
+C:\Users\asus\source\repos\HospitalApi\OnionArchitecture\Core\OnionArchitecture.HospitalApi.Application\obj\Debug\net5.0\refint\OnionArchitecture.HospitalApi.Application.dll
+C:\Users\asus\source\repos\HospitalApi\OnionArchitecture\Core\OnionArchitecture.HospitalApi.Application\obj\Debug\net5.0\OnionArchitecture.HospitalApi.Application.pdb
+C:\Users\asus\source\repos\HospitalApi\OnionArchitecture\Core\OnionArchitecture.HospitalApi.Application\obj\Debug\net5.0\ref\OnionArchitecture.HospitalApi.Application.dll

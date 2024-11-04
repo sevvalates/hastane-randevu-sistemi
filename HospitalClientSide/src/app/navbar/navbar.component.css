@@ -1,0 +1,35 @@
+.custom-navbar {
+  background-color: #003366; 
+  width: 100%; /* Navbar'ı tam genişlikte ayarla */
+
+  position: sticky; /* Navbar'ı sabit hale getir */
+  top: 0; /* Sayfanın en üst kısmına sabitle */
+  left: 0;
+  z-index: 1000; /*Diğer içeriklerin üzerinde görünmesini sağla */
+  height: 50px;  /*Navbar yüksekliğini ayarla */
+}
+
+.navbar-brand {
+  margin-left: 20px; /* Sol kenar boşluğu */
+  margin-right: 5px; /* Sağ kenar boşluğu */
+  font-size: 1.2rem; /* Font boyutunu artır */
+  padding: 10px 15px; /* İçerik etrafında boşluk ekle */
+}
+
+.navbar-nav .nav-item {
+  margin: 0 2px; /* Her iki tarafta daha az boşluk */
+}
+
+.navbar-toggler {
+  margin-right: 10px; /* Sağ kenar boşluğu */
+}
+
+.nav-link {
+  font-size: 1.1rem; /* Yazı boyutunu artır */
+  padding: 10px 15px; /* Üst ve alt, sol ve sağ için boşluk ekle */
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Hover efekti için arka plan rengi ekle */
+}
+

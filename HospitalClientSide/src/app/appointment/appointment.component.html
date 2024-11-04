@@ -1,0 +1,115 @@
+<div class="container mt-5">
+  <h3 class="mb-4" style="font-size: 1.5rem; font-weight: 600; ; border-bottom: 2px solid rgba(0, 0, 0, 0.1); padding-bottom: 10px;">
+    Randevu Oluştur
+  </h3>
+
+  <div class="row">
+    <!-- Column for Patient Details -->
+    <div class="col-lg-6">
+      <!-- Card for Patient Details -->
+      <div class="card shadow mb-4">
+        <div class="card-header bg-dark text-white">
+          <h4 class="mb-0">Hasta Detayları</h4>
+        </div>
+        <div class="card-body">
+          <!-- Patient information table -->
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <tbody>
+                <tr>
+                  <th scope="row">Ad:</th>
+                  <td>{{ patient?.name }}</td>
+                </tr>
+                <tr>
+                  <th scope="row">Soyad:</th>
+                  <td>{{ patient?.surname }}</td>
+                </tr>
+                <tr>
+                  <th scope="row">Kimlik No:</th>
+                  <td>{{ patient?.socialSecurityNumber }}</td>
+                </tr>
+                <tr>
+                  <th scope="row">Bağlı Olduğu Kurum:</th>
+                  <td>{{ patient?.corporationId }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Column for Appointment Details -->
+    <div class="col-lg-6">
+      <!-- Card for Appointment Details -->
+      <div class="card shadow mb-4">
+        <div class="card-header bg-dark text-white">
+          <h4 class="mb-0">Randevu Detayları</h4>
+        </div>
+        <div class="card-body">
+          <form class="row g-3" (ngSubmit)="onFormSubmit()" [formGroup]="createAppointmentsForm">
+
+            <div class="form-group">
+              <label for="serviceSelect" class="form-label">Servis</label>
+              <select id="serviceSelect" class="form-select" formControlName="serviceId" (change)="fetchDoctorsByService($event)">
+                <option value="" disabled selected>Select Service</option>
+                @for (item of Hospital; track item.id) {
+                  <option value="{{item.id}}">{{item.name}}</option>
+                }
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="doctorSelect" class="form-label">Doktor</label>
+              <select id="doctorSelect" class="form-select" formControlName="doctorId">
+                <option value="" disabled selected>Select Doctor</option>
+                @for (item of filteredDoctors; track item.id) {
+                  <option value="{{item.id}}">{{item.name}} {{item.surname}}</option>
+                }
+              </select>
+            </div>
+            
+
+            <!-- Custom Date and Time Picker -->
+            <div class="form-group">
+              <label for="appointmentDate" class="form-label">Randevu Tarihi</label>
+              <input type="date" id="appointmentDate" class="form-control" formControlName="appointmentDate" [min]="minDate" required />
+            </div>
+
+            <div class="row mt-3"> <!-- Add 'mt-4' to add some space -->
+              <div class="col-md-3">
+                <div class="form-group">
+                  <label for="hourSelect" class="form-label">Saat</label>
+                  <select id="hourSelect" class="form-select" formControlName="hour">
+                    <option value="" disabled selected>Hour</option>
+                    <option *ngFor="let hour of hours" [value]="hour">{{ hour }}</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="form-group">
+                  <label for="minuteSelect" class="form-label">Dakika</label>
+                  <select id="minuteSelect" class="form-select" formControlName="minute">
+                    <option value="" disabled selected>Minutes</option>
+                    <option *ngFor="let minute of minutes" [value]="minute">{{ minute }}</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div *ngIf="errorMessage" class="error-message">
+              {{ errorMessage }}
+            </div>
+                        
+            
+            <div class="col-12 text-end">
+              <button type="submit" class="btn btn-primary">Randevu Oluştur</button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

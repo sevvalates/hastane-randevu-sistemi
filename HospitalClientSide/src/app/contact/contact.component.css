@@ -1,0 +1,50 @@
+.custom-position {
+    margin-top: 350px; /* Üstten boşluk */
+    margin-left: 20px; /* Soldan boşluk */
+  }
+  .custom-link {
+    text-decoration: none; /* Alt çizgiyi kaldır */
+    color: #134172; /* Yazı rengi (mavi) */
+    font-weight: bold; /* Yazıları kalınlaştır */
+  }
+  
+  /* Eğer hover efekti eklemek isterseniz */
+  .custom-link:hover {
+    color: #0056b3; /* Hover rengi (daha koyu mavi) */
+  }
+  
+  .custom-link-container {
+    display: flex;
+    align-items: center; /* Yatayda ortalamak için */
+  }
+  
+  .separator {
+    width: 0; /* Çizginin kalınlığı */
+    height: 50px; /* Çizginin yüksekliği */
+    border-left: 3px solid #134172; 
+    margin: 0 20px; /* Çizgi ile butonlar arasındaki mesafe */
+  }
+
+  .custom-container {
+    display: flex;
+    align-items: start;
+  }
+  
+
+  .info {
+    font-size: 1rem; /* Alt metin için daha küçük yazı boyutu */
+    color: #555; /* Alt metin rengi */
+    font-weight: 400; /* Alt metin kalınlığı */
+    margin-top: 5px; /* Üstten boşluk */
+}
+
+.main-title {
+    font-size: 1rem; /* Yazı boyutu */
+    color: #134172; /* Yazı rengi */
+    font-weight: bold; /* Yazı kalınlığı */  
+}
+
+.scroll-padding {
+  padding-top: 100px; /* İstediğiniz padding değeri */
+  margin-top: -100px; /* Yüksekliği eşitlemek için negatif margin */
+}

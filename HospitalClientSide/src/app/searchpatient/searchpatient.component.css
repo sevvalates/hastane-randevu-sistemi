@@ -1,0 +1,45 @@
+.text-center {
+    text-align: center; /* Center align text */
+  }
+
+.align-right {
+    display: flex;
+    justify-content: flex-end;
+}
+.add-patient-btn, .create-appointment-btn {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  transition: background-color 0.2s ease; /* Renk geçişi için animasyon */
+}
+
+.add-patient-btn {
+  background-color: #89CFF0; 
+  border-color: #89CFF0; 
+  color: #1C3D5A;
+}
+
+.create-appointment-btn {
+  background-color: #4682B4; 
+  border-color: #4682B4; 
+  color: #ffffff;
+}
+
+.add-patient-btn:hover {
+  background-color: #6AB3E0; /* Koyulaşmış renk */
+  border-color: #6AB3E0; 
+}
+
+.create-appointment-btn:hover {
+  background-color: #3B6E94; /* Koyulaşmış renk */
+  border-color: #3B6E94; 
+}
+
+/* İkon boyutu ve boşluk ayarları */
+.add-patient-btn i, .create-appointment-btn i {
+  font-size: 20px; /* İkon boyutu */
+}
+
+.container {
+  margin-top: 90px; /* Navbar yüksekliği kadar üstten boşluk bırak */
+}

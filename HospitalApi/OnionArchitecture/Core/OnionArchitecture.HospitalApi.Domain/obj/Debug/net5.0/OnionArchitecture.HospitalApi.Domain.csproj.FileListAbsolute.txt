@@ -1,0 +1,11 @@
+C:\Users\asus\source\repos\HospitalApi\OnionArchitecture\Core\OnionArchitecture.HospitalApi.Domain\bin\Debug\net5.0\OnionArchitecture.HospitalApi.Domain.deps.json
+C:\Users\asus\source\repos\HospitalApi\OnionArchitecture\Core\OnionArchitecture.HospitalApi.Domain\bin\Debug\net5.0\OnionArchitecture.HospitalApi.Domain.dll
+C:\Users\asus\source\repos\HospitalApi\OnionArchitecture\Core\OnionArchitecture.HospitalApi.Domain\bin\Debug\net5.0\OnionArchitecture.HospitalApi.Domain.pdb
+C:\Users\asus\source\repos\HospitalApi\OnionArchitecture\Core\OnionArchitecture.HospitalApi.Domain\obj\Debug\net5.0\OnionArchitecture.HospitalApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\source\repos\HospitalApi\OnionArchitecture\Core\OnionArchitecture.HospitalApi.Domain\obj\Debug\net5.0\OnionArchitecture.HospitalApi.Domain.AssemblyInfoInputs.cache
+C:\Users\asus\source\repos\HospitalApi\OnionArchitecture\Core\OnionArchitecture.HospitalApi.Domain\obj\Debug\net5.0\OnionArchitecture.HospitalApi.Domain.AssemblyInfo.cs
+C:\Users\asus\source\repos\HospitalApi\OnionArchitecture\Core\OnionArchitecture.HospitalApi.Domain\obj\Debug\net5.0\OnionArchitecture.HospitalApi.Domain.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\HospitalApi\OnionArchitecture\Core\OnionArchitecture.HospitalApi.Domain\obj\Debug\net5.0\OnionArchitecture.HospitalApi.Domain.dll
+C:\Users\asus\source\repos\HospitalApi\OnionArchitecture\Core\OnionArchitecture.HospitalApi.Domain\obj\Debug\net5.0\refint\OnionArchitecture.HospitalApi.Domain.dll
+C:\Users\asus\source\repos\HospitalApi\OnionArchitecture\Core\OnionArchitecture.HospitalApi.Domain\obj\Debug\net5.0\OnionArchitecture.HospitalApi.Domain.pdb
+C:\Users\asus\source\repos\HospitalApi\OnionArchitecture\Core\OnionArchitecture.HospitalApi.Domain\obj\Debug\net5.0\ref\OnionArchitecture.HospitalApi.Domain.dll

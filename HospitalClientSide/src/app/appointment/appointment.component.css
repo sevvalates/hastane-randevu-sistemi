@@ -1,0 +1,9 @@
+.custom-navbar {
+    background-color: #003366; /* Dark blue color */
+  }
+  .error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  

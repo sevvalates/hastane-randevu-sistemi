@@ -1,0 +1,118 @@
+
+<div class="container mt-5">
+
+  <div class="dropdown-container">
+    <div>
+      <h3 class="mb-0 text-center" style="font-size: 1.5rem; position: sticky;font-weight: 600; border-bottom: 2px solid rgba(0, 0, 0, 0.1); padding-bottom: 10px; flex-grow: 1;">
+        RANDEVU LİSTESİ
+      </h3>
+   </div>
+
+
+  <div class="d-flex justify-content-end mb-3 mt-3">
+
+    <div class="input-group me-2" style="flex-grow: 1; max-width: 300px;">
+      <input 
+        type="text" 
+        class="form-control" 
+        (input)="filterAppointments($event)" 
+        placeholder="Randevu ara..." 
+      />
+      <span class="input-group-text">
+        <i class="bi bi-search"></i> 
+      </span>
+    </div>
+
+    <div class="dropdown">
+      <button 
+          class="btn btn-secondary dropdown-toggle" 
+          type="button"
+          id="dropdownMenuButton"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          style="background-color: #185aa1; color: white;" 
+          onmouseover="this.style.backgroundColor='#0056b3';" 
+          onmouseout="this.style.backgroundColor='#007bff';"
+      >
+        {{selectedOption}}
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" (click)="ArrangeByName()">İsme Göre</a></li>
+        <li><a class="dropdown-item" (click)="ArrangeByDate()">Tarihe Göre</a></li>
+        <li><a class="dropdown-item" (click)="ArrangeByStatus()">Randevu Durumuna Göre</a></li>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <!-- Check if there are appointments -->
+  <div *ngIf="paginatedAppointments.length > 0; else noAppointments">
+    <div class="table-responsive">
+      <table class="table table-striped table-hover">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Hasta Adı</th>
+            <th scope="col">Hasta Soyadı</th>
+            <th scope="col">Hasta Cinsiyet</th>
+            <th scope="col">Servis Adı</th>
+            <th scope="col">Doktor Adı</th>
+            <th scope="col">Doktor Soyadı</th>
+            <th scope="col">Randevu Tarihi</th>
+            <th scope="col">Randevu Saati</th>
+            <th scope="col">Randevu Durumu</th>
+            <th scope="col"> </th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Loop through the appointments and display each one -->
+          <tr *ngFor="let appointment of paginatedAppointments; let i = index">
+            <th scope="row">{{ (pageIndex * pageSize) + (i + 1) }}</th>
+            <td>{{ appointment.patientName }}</td>
+            <td>{{ appointment.patientSurname }}</td>
+            <td>{{ genderMap[appointment.patientGender] }}</td>
+            <td>{{ appointment.serviceName }}</td>
+            <td>{{ appointment.doctorName }}</td>
+            <td>{{ appointment.doctorSurname }}</td>
+            <td>{{ appointment.appointmentDate | date:'dd.MM.yyyy' }}</td>
+            <td>{{ appointment.appointmentDate | date:'HH:mm' }}</td>
+            <td>{{appointmentStatusMap[appointment.appointmentStatus]}} </td>
+
+            <td>
+              <div class="dropdown">
+                <button
+                  class="btn btn-secondary dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  
+               </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li><a class="dropdown-item" (click)="openStatusDialog(appointment)">Randevu Durum Güncelle</a></li>
+                  <li><a class="dropdown-item" (click)="openDateDialog(appointment)">Randevu Tarih/Servis Güncelle</a></li>
+                </ul>
+              </div>
+            </td>          
+            
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <mat-paginator [length]="filteredAppointments.length"
+      [pageSize]="pageSize"
+      [pageSizeOptions]="[5]"
+      (page)="onPageChange($event)">
+    </mat-paginator>
+
+  </div>
+
+  <!-- Message when no appointments are found -->
+  <ng-template #noAppointments>
+    <div class="alert alert-warning text-center" role="alert">
+      No appointments available at the moment.
+    </div>
+  </ng-template>
+</div>

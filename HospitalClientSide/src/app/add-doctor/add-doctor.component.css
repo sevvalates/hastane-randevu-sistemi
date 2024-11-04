@@ -1,0 +1,9 @@
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .form-label {
+    font-weight: 600; /* Etiketleri kalın yapar */
+  }
+  

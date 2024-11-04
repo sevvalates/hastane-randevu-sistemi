@@ -1,0 +1,205 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\asus\\source\\repos\\HospitalApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{63F41CFC-B04E-40FB-A362-B24E636ACFC6}|OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Domain\\OnionArchitecture.HospitalApi.Domain.csproj|c:\\users\\asus\\source\\repos\\hospitalapi\\onionarchitecture\\core\\onionarchitecture.hospitalapi.domain\\entities\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63F41CFC-B04E-40FB-A362-B24E636ACFC6}|OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Domain\\OnionArchitecture.HospitalApi.Domain.csproj|solutionrelative:onionarchitecture\\core\\onionarchitecture.hospitalapi.domain\\entities\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F41CFC-B04E-40FB-A362-B24E636ACFC6}|OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Domain\\OnionArchitecture.HospitalApi.Domain.csproj|c:\\users\\asus\\source\\repos\\hospitalapi\\onionarchitecture\\core\\onionarchitecture.hospitalapi.domain\\enums\\appointmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63F41CFC-B04E-40FB-A362-B24E636ACFC6}|OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Domain\\OnionArchitecture.HospitalApi.Domain.csproj|solutionrelative:onionarchitecture\\core\\onionarchitecture.hospitalapi.domain\\enums\\appointmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9074BD3C-1C83-423B-ACA9-4219808BB66B}|OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Application\\OnionArchitecture.HospitalApi.Application.csproj|c:\\users\\asus\\source\\repos\\hospitalapi\\onionarchitecture\\core\\onionarchitecture.hospitalapi.application\\features\\cqrs\\appointmentcqrs\\commands\\createappointmentcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9074BD3C-1C83-423B-ACA9-4219808BB66B}|OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Application\\OnionArchitecture.HospitalApi.Application.csproj|solutionrelative:onionarchitecture\\core\\onionarchitecture.hospitalapi.application\\features\\cqrs\\appointmentcqrs\\commands\\createappointmentcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D8183FC-5385-441C-939D-54854359A12A}|OnionArchitecture\\Presentation\\OnionArchitecture.HospitalApi.API\\OnionArchitecture.HospitalApi.API.csproj|c:\\users\\asus\\source\\repos\\hospitalapi\\onionarchitecture\\presentation\\onionarchitecture.hospitalapi.api\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D8183FC-5385-441C-939D-54854359A12A}|OnionArchitecture\\Presentation\\OnionArchitecture.HospitalApi.API\\OnionArchitecture.HospitalApi.API.csproj|solutionrelative:onionarchitecture\\presentation\\onionarchitecture.hospitalapi.api\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F41CFC-B04E-40FB-A362-B24E636ACFC6}|OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Domain\\OnionArchitecture.HospitalApi.Domain.csproj|c:\\users\\asus\\source\\repos\\hospitalapi\\onionarchitecture\\core\\onionarchitecture.hospitalapi.domain\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63F41CFC-B04E-40FB-A362-B24E636ACFC6}|OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Domain\\OnionArchitecture.HospitalApi.Domain.csproj|solutionrelative:onionarchitecture\\core\\onionarchitecture.hospitalapi.domain\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D8183FC-5385-441C-939D-54854359A12A}|OnionArchitecture\\Presentation\\OnionArchitecture.HospitalApi.API\\OnionArchitecture.HospitalApi.API.csproj|c:\\users\\asus\\source\\repos\\hospitalapi\\onionarchitecture\\presentation\\onionarchitecture.hospitalapi.api\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D8183FC-5385-441C-939D-54854359A12A}|OnionArchitecture\\Presentation\\OnionArchitecture.HospitalApi.API\\OnionArchitecture.HospitalApi.API.csproj|solutionrelative:onionarchitecture\\presentation\\onionarchitecture.hospitalapi.api\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D8183FC-5385-441C-939D-54854359A12A}|OnionArchitecture\\Presentation\\OnionArchitecture.HospitalApi.API\\OnionArchitecture.HospitalApi.API.csproj|c:\\users\\asus\\source\\repos\\hospitalapi\\onionarchitecture\\presentation\\onionarchitecture.hospitalapi.api\\controllers\\corporationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D8183FC-5385-441C-939D-54854359A12A}|OnionArchitecture\\Presentation\\OnionArchitecture.HospitalApi.API\\OnionArchitecture.HospitalApi.API.csproj|solutionrelative:onionarchitecture\\presentation\\onionarchitecture.hospitalapi.api\\controllers\\corporationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D8183FC-5385-441C-939D-54854359A12A}|OnionArchitecture\\Presentation\\OnionArchitecture.HospitalApi.API\\OnionArchitecture.HospitalApi.API.csproj|c:\\users\\asus\\source\\repos\\hospitalapi\\onionarchitecture\\presentation\\onionarchitecture.hospitalapi.api\\controllers\\servicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D8183FC-5385-441C-939D-54854359A12A}|OnionArchitecture\\Presentation\\OnionArchitecture.HospitalApi.API\\OnionArchitecture.HospitalApi.API.csproj|solutionrelative:onionarchitecture\\presentation\\onionarchitecture.hospitalapi.api\\controllers\\servicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D8183FC-5385-441C-939D-54854359A12A}|OnionArchitecture\\Presentation\\OnionArchitecture.HospitalApi.API\\OnionArchitecture.HospitalApi.API.csproj|c:\\users\\asus\\source\\repos\\hospitalapi\\onionarchitecture\\presentation\\onionarchitecture.hospitalapi.api\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D8183FC-5385-441C-939D-54854359A12A}|OnionArchitecture\\Presentation\\OnionArchitecture.HospitalApi.API\\OnionArchitecture.HospitalApi.API.csproj|solutionrelative:onionarchitecture\\presentation\\onionarchitecture.hospitalapi.api\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9074BD3C-1C83-423B-ACA9-4219808BB66B}|OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Application\\OnionArchitecture.HospitalApi.Application.csproj|c:\\users\\asus\\source\\repos\\hospitalapi\\onionarchitecture\\core\\onionarchitecture.hospitalapi.application\\features\\cqrs\\appointmentcqrs\\handlers\\createappointmentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9074BD3C-1C83-423B-ACA9-4219808BB66B}|OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Application\\OnionArchitecture.HospitalApi.Application.csproj|solutionrelative:onionarchitecture\\core\\onionarchitecture.hospitalapi.application\\features\\cqrs\\appointmentcqrs\\handlers\\createappointmentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9074BD3C-1C83-423B-ACA9-4219808BB66B}|OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Application\\OnionArchitecture.HospitalApi.Application.csproj|c:\\users\\asus\\source\\repos\\hospitalapi\\onionarchitecture\\core\\onionarchitecture.hospitalapi.application\\features\\cqrs\\doctorcqrs\\commands\\removedoctorcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9074BD3C-1C83-423B-ACA9-4219808BB66B}|OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Application\\OnionArchitecture.HospitalApi.Application.csproj|solutionrelative:onionarchitecture\\core\\onionarchitecture.hospitalapi.application\\features\\cqrs\\doctorcqrs\\commands\\removedoctorcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 208,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HospitalApi\\OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Domain\\Entities\\Patient.cs",
+              "RelativeDocumentMoniker": "OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Domain\\Entities\\Patient.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HospitalApi\\OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Domain\\Entities\\Patient.cs",
+              "RelativeToolTip": "OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Domain\\Entities\\Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T11:49:47.268Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppointmentStatus.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HospitalApi\\OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Domain\\Enums\\AppointmentStatus.cs",
+              "RelativeDocumentMoniker": "OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Domain\\Enums\\AppointmentStatus.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HospitalApi\\OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Domain\\Enums\\AppointmentStatus.cs",
+              "RelativeToolTip": "OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Domain\\Enums\\AppointmentStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T10:57:20.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateAppointmentCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HospitalApi\\OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Application\\Features\\CQRS\\AppointmentCQRS\\Commands\\CreateAppointmentCommandRequest.cs",
+              "RelativeDocumentMoniker": "OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Application\\Features\\CQRS\\AppointmentCQRS\\Commands\\CreateAppointmentCommandRequest.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HospitalApi\\OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Application\\Features\\CQRS\\AppointmentCQRS\\Commands\\CreateAppointmentCommandRequest.cs",
+              "RelativeToolTip": "OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Application\\Features\\CQRS\\AppointmentCQRS\\Commands\\CreateAppointmentCommandRequest.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAtwBMAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T12:14:08.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppointmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HospitalApi\\OnionArchitecture\\Presentation\\OnionArchitecture.HospitalApi.API\\Controllers\\AppointmentsController.cs",
+              "RelativeDocumentMoniker": "OnionArchitecture\\Presentation\\OnionArchitecture.HospitalApi.API\\Controllers\\AppointmentsController.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HospitalApi\\OnionArchitecture\\Presentation\\OnionArchitecture.HospitalApi.API\\Controllers\\AppointmentsController.cs",
+              "RelativeToolTip": "OnionArchitecture\\Presentation\\OnionArchitecture.HospitalApi.API\\Controllers\\AppointmentsController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCUAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T11:37:02.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServicesController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HospitalApi\\OnionArchitecture\\Presentation\\OnionArchitecture.HospitalApi.API\\Controllers\\ServicesController.cs",
+              "RelativeDocumentMoniker": "OnionArchitecture\\Presentation\\OnionArchitecture.HospitalApi.API\\Controllers\\ServicesController.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HospitalApi\\OnionArchitecture\\Presentation\\OnionArchitecture.HospitalApi.API\\Controllers\\ServicesController.cs",
+              "RelativeToolTip": "OnionArchitecture\\Presentation\\OnionArchitecture.HospitalApi.API\\Controllers\\ServicesController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T11:37:44.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PatientsController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HospitalApi\\OnionArchitecture\\Presentation\\OnionArchitecture.HospitalApi.API\\Controllers\\PatientsController.cs",
+              "RelativeDocumentMoniker": "OnionArchitecture\\Presentation\\OnionArchitecture.HospitalApi.API\\Controllers\\PatientsController.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HospitalApi\\OnionArchitecture\\Presentation\\OnionArchitecture.HospitalApi.API\\Controllers\\PatientsController.cs",
+              "RelativeToolTip": "OnionArchitecture\\Presentation\\OnionArchitecture.HospitalApi.API\\Controllers\\PatientsController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDYAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T11:37:39.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HospitalApi\\OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Domain\\Entities\\Appointment.cs",
+              "RelativeDocumentMoniker": "OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Domain\\Entities\\Appointment.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HospitalApi\\OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Domain\\Entities\\Appointment.cs",
+              "RelativeToolTip": "OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Domain\\Entities\\Appointment.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwBMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T07:16:32.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CorporationsController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HospitalApi\\OnionArchitecture\\Presentation\\OnionArchitecture.HospitalApi.API\\Controllers\\CorporationsController.cs",
+              "RelativeDocumentMoniker": "OnionArchitecture\\Presentation\\OnionArchitecture.HospitalApi.API\\Controllers\\CorporationsController.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HospitalApi\\OnionArchitecture\\Presentation\\OnionArchitecture.HospitalApi.API\\Controllers\\CorporationsController.cs",
+              "RelativeToolTip": "OnionArchitecture\\Presentation\\OnionArchitecture.HospitalApi.API\\Controllers\\CorporationsController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T11:37:10.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DoctorsController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HospitalApi\\OnionArchitecture\\Presentation\\OnionArchitecture.HospitalApi.API\\Controllers\\DoctorsController.cs",
+              "RelativeDocumentMoniker": "OnionArchitecture\\Presentation\\OnionArchitecture.HospitalApi.API\\Controllers\\DoctorsController.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HospitalApi\\OnionArchitecture\\Presentation\\OnionArchitecture.HospitalApi.API\\Controllers\\DoctorsController.cs",
+              "RelativeToolTip": "OnionArchitecture\\Presentation\\OnionArchitecture.HospitalApi.API\\Controllers\\DoctorsController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAABYAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T11:37:25.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateAppointmentCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HospitalApi\\OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Application\\Features\\CQRS\\AppointmentCQRS\\Handlers\\CreateAppointmentCommandHandler.cs",
+              "RelativeDocumentMoniker": "OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Application\\Features\\CQRS\\AppointmentCQRS\\Handlers\\CreateAppointmentCommandHandler.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HospitalApi\\OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Application\\Features\\CQRS\\AppointmentCQRS\\Handlers\\CreateAppointmentCommandHandler.cs",
+              "RelativeToolTip": "OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Application\\Features\\CQRS\\AppointmentCQRS\\Handlers\\CreateAppointmentCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T11:36:39.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RemoveDoctorCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HospitalApi\\OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Application\\Features\\CQRS\\DoctorCQRS\\Commands\\RemoveDoctorCommandRequest.cs",
+              "RelativeDocumentMoniker": "OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Application\\Features\\CQRS\\DoctorCQRS\\Commands\\RemoveDoctorCommandRequest.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HospitalApi\\OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Application\\Features\\CQRS\\DoctorCQRS\\Commands\\RemoveDoctorCommandRequest.cs",
+              "RelativeToolTip": "OnionArchitecture\\Core\\OnionArchitecture.HospitalApi.Application\\Features\\CQRS\\DoctorCQRS\\Commands\\RemoveDoctorCommandRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T11:35:44.738Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

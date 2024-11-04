@@ -1,0 +1,16 @@
+<h1 mat-dialog-title>Randevu Durumunu Güncelle</h1>
+<div mat-dialog-content>
+    <mat-form-field>
+        <mat-label>Randevu Durumu Seçin</mat-label>
+        <mat-select [(value)]="selectedStatus" >
+            <mat-option [value]="AppointmentStatus.Pending">Beklemede</mat-option>
+            <mat-option [value]="AppointmentStatus.Completed">Taburcu</mat-option>
+            <mat-option [value]="AppointmentStatus.Cancelled">İptal</mat-option>
+            <mat-option [value]="AppointmentStatus.NoShow">Gelmedi</mat-option>
+        </mat-select>
+    </mat-form-field>
+</div>
+<div mat-dialog-actions>
+    <button mat-button mat-dialog-close>İptal</button>
+    <button mat-button (click)="onSave()">Kaydet</button>
+</div>

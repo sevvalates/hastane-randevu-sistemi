@@ -1,0 +1,47 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Üç sütun oluşturuyoruz */
+  grid-gap: 20px; /* Kutu aralıklarını artırdık */
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.box {
+  text-align: center;
+  border: 1px solid #04427f;
+  border-radius: 10px; /* Kenarları yuvarlatıyoruz */
+  background-color: #f8f9fa; /* Arka plan rengi ekledik */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+  transition: transform 0.3s; /* Geçiş animasyonu */
+  height: 200px; /* Yükseklik sabit kalır */
+}
+
+.box:hover {
+  transform: translateY(-5px); /* Hover efekti */
+}
+
+button {
+  width: 100%; /* Butonun kutunun tamamını kaplamasını sağlıyoruz */
+  height: 100%; /* Butonun kutunun tamamını kaplamasını sağlıyoruz */
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #04427f; /* Buton arka plan rengi */
+  color: #fff; /* Yazı rengi beyaz */
+  border: none; /* Kenar çizgilerini kaldırdık */
+  border-radius: 10px; /* Kenarları yuvarlatıyoruz */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Geçiş animasyonu */
+  display: flex; /* Flexbox ile ikon ve metni hizalamak için */
+  align-items: center; /* Dikeyde ortalamak için */
+  justify-content: center; /* Yatayda ortalamak için */
+}
+
+button i {
+  margin-right: 8px; /* İkon ile metin arasında boşluk */
+  font-size: 24px; /* İkon boyutu */
+}
+
+button:hover {
+  background-color: #032c54; /* Hover durumunda buton rengini değiştiriyoruz */
+}

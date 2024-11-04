@@ -1,0 +1,12 @@
+.dropdown-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem; /* Adjust margin as needed */
+  }
+  
+  .dropdown {
+    margin-left: auto; /* Push dropdown to the right */
+    white-space: nowrap;
+  }
+  
